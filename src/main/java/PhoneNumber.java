@@ -54,9 +54,9 @@ public class PhoneNumber
     return -1;
   }
   /**************************************************************************/
-  private static String validate(int countryCodeIndex,String stripedNumber)
+  private static String validate(int countryCodeIndex,String strippedNumber)
   {
-    return (countryCodeIndex == USA)? validateNorthAmerican(countryCodeIndex, stripedNumber): validateInternational(countryCodeIndex, stripedNumber);
+    return (countryCodeIndex == USA)? validateNorthAmerican(countryCodeIndex, strippedNumber): validateInternational(countryCodeIndex, strippedNumber);
   }
   /**************************************************************************/
   /*
